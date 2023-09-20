@@ -1,0 +1,46 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	position:relative;
+}
+
+a,button{
+	cursor:pointer;
+}
+
+
+
+
+.accordion{
+	width:25%;
+	margin:1% auto;
+}
+
+.accordionItem{
+	padding:1%;
+}
+
+.accordionTitle{
+	background-color:aquamarine;
+	padding:2%;
+	cursor:pointer;	
+	box-shadow:2px 2px 4px lightseagreen;
+	z-index:1;
+}
+
+.accordionDetail{
+	background-color:mintcream;
+	padding:3%;
+	border:1px solid aquamarine;
+}
+
+.hidden{
+	display:none;
+}
+
+.shown{
+	display:block;
+}
